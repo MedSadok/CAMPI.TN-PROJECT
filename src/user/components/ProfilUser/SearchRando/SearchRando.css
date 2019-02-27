@@ -1,0 +1,43 @@
+.rando {
+  height: 800px;
+  margin-left: 40px;
+}
+
+.allRando {
+  margin-right: 30px;
+  padding-bottom: 20px;
+  width: 750px;
+}
+.fa-search {
+  color: azure;
+}
+
+.formm {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  width:185%;
+}
+
+form.formm button:hover {
+  background: #daa30b;
+}
+
+form.formm::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form.formm button {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  background: #f3bc21;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}

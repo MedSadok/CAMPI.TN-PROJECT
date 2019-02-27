@@ -1,0 +1,55 @@
+.formulaire {
+  display: flex;
+  flex-direction: column;
+}
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 40%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  background: #f3bc21;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+form.example button:hover {
+  background: #f3bc21;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.formulairegroupe {
+  display: flex;
+  width: 500px;
+}
+.alllabel {
+  width: 200px;
+}
+.confirm-cancel {
+  display: flex;
+  justify-content: flex-end;
+}
+.btnconfirmer {
+  margin-right: 20px;
+}

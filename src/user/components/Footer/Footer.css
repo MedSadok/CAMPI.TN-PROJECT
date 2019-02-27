@@ -1,0 +1,98 @@
+.main_footer {
+  background-color: #e4e0e0;
+  padding: 60px 0 55px 0;
+   
+}
+.main_footer .copy {
+  padding-left: 55px;
+  margin-top: 3px;
+}
+.main_footer .footer_block {
+  font-size: 16px;
+  color: #000;
+}
+.main_footer .footer_block_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #000;
+  line-height: 1;
+  padding-top: 0;
+  padding-bottom: 24px;
+  text-transform: uppercase;
+}
+.social_wg a {
+  display: inline-block;
+  margin: 0 3px;
+  color: #000;
+  font-size: 18px;
+}
+
+.soc_link {
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 21px;
+    color: #000;
+    line-height: 1;
+    position: relative;
+    top: 2px;
+    transition: all 0.3s ease;
+  }
+  .soc_link:hover,
+  .soc_link:focus {
+    color: #f0b80f;
+    transition: all 0.3s ease;
+  }
+  .sv_btn {
+    display: inline-block;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    background-color: #f0b80f;
+  }
+  .sv_btn.small_btn {
+    padding: 7px 20px;
+  }
+  .sv_btn[type="submyt"] {
+    padding: 9px 32px;
+  }
+  .sv_btn:hover,
+  .sv_btn:focus {
+    outline: none;
+    color: #000;
+    text-decoration: none;
+  }
+  .sv_btn_trnsp {
+    padding: 9px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid #f0b80f;
+    transition: all 0.3s ease;
+    color: #000;
+  }
+  .sv_btn_trnsp:hover,
+  .sv_btn_trnsp.active,
+  .sv_btn_trnsp.mixitup-control-active {
+    background-color: #f0b80f;
+    transition: all 0.3s ease;
+    color: #000;
+  }
+  .btn_col_white {
+    color: #fff;
+  }
+  .load_nav{
+      padding:30px 0 0 0;
+  }
+
+  .fab{
+      color:darkgray;
+  }
+  .fab:hover{
+      color:#f0b80f;
+
+  }

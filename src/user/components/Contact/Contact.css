@@ -1,0 +1,56 @@
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Roboto, sans-serif;
+  border-style: 1px solid grey;
+  margin: 0 50;
+  width: 50%;
+  padding-top: 10px;
+  padding: 0 100px;
+  height: 400px;
+  margin-top: 150px;
+  border-right: 1px solid #cccccc;
+  margin-bottom: 50px;
+}
+.Contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Roboto, sans-serif;
+  border-style: 1px solid grey;
+  margin: 0 50;
+  width: 50%;
+  padding-top: 10px;
+  padding: 0 100px;
+  height: 220px;
+  margin-top: 150px;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#submit{
+  margin-right: 10px;
+}
+
+#info{
+  margin-top: 12px;
+  
+}
+
+

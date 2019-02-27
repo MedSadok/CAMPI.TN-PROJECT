@@ -1,0 +1,54 @@
+.offer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header-title{
+  text-align: center;
+  padding:50px 100px 0;
+  margin-top: 50px;
+  text-transform: uppercase;
+  color:black;
+}
+
+.single_cool_fact {
+    font-size: 18px;
+  }
+  .cool_fact_icon_img {
+    height: 200px;
+    font-size:34px;
+    background-color: darkgrey;
+  }
+  .cool_fact_name {
+    margin-bottom: 23px;
+    font-size: 28px;
+    color:#FECB2F;
+    
+  }
+  .service{
+    width: 150px;
+    padding-top: 20px;
+  }
+  #text{
+    background-color: #282828;
+    padding:20px;
+    height:200px;
+    margin-bottom: 20px;
+  }
+  #text-details{
+    color:whitesmoke;
+  }
+
+  #service-container{
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .service-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }

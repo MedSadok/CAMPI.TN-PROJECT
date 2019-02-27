@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+<<<<<<< HEAD
+    "mongodb": "^3.1.10"
+=======
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+>>>>>>> 0c1474019696b28ba5317ab6a212f992c4f5b10f
+  }
+}

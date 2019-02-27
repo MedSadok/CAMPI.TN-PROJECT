@@ -1,0 +1,20 @@
+.liste-rando {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  padding-left: 30px;
+}
+.liste-rando > a {
+  color: black;
+  text-decoration: none;
+}
+.btnmodifier {
+  margin-right: 20px;
+  width: 100px;
+  height: 30px;
+}
+.btnsupprimer {
+  width: 100px;
+  height: 30px;
+}

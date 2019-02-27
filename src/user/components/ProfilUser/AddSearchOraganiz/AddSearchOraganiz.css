@@ -1,0 +1,31 @@
+.navv {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin-top:70px;
+}
+.navv > a {
+  color: black;
+  text-decoration: none;
+}
+
+.navv > a:hover {
+  color: rgb(255, 217, 0);
+}
+
+.membre {
+  /* border: solid; */
+  display: flex;
+  margin-top: 50px;
+}
+.profilformorganiz {
+  display: flex;
+}
+.formorganiz {
+  
+  margin-left: 110px;
+  padding: 40px;
+}
+.profilformorganiz {
+  margin-top: 50px;
+}
